@@ -1,17 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://cmjrxvnxox4tq"]
+[gd_scene load_steps=4 format=3 uid="uid://cmjrxvnxox4tq"]
 
 [ext_resource type="Texture2D" uid="uid://s7wxay2p3foh" path="res://ufo_2949273.png" id="1_d67fp"]
+[ext_resource type="Script" path="res://player.gd" id="1_w0vt3"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_uke0n"]
-radius = 67.0
+radius = 52.0
 
 [node name="Player" type="RigidBody2D"]
 position = Vector2(549, 274)
 gravity_scale = 0.0
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.25, 0.25)
-texture = ExtResource("1_d67fp")
+script = ExtResource("1_w0vt3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 3)
 shape = SubResource("CircleShape2D_uke0n")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_d67fp")
