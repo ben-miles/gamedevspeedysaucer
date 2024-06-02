@@ -2,7 +2,7 @@ extends RigidBody2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	apply_impulse(Vector2(25,5))
+	pass
 
 # Runs every frame (effected by framerate)
 func _process(delta):
@@ -10,4 +10,12 @@ func _process(delta):
 
 # Runs every time there is a phsyics calculation -- not effected by framerate
 func _physics_process(delta):
-	apply_force(Vector2(25,5))
+	var force = 1000
+	if Input.is_action_pressed("move_right"):
+		apply_force(Vector2(force,0))
+	if Input.is_action_pressed("move_left"):
+		apply_force(Vector2(-force,0))
+	if Input.is_action_pressed("move_up"):
+		apply_force(Vector2(0,-force))
+	if Input.is_action_pressed("move_down"):
+		apply_force(Vector2(0,force))
