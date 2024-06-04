@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://w4b0y060a5ma"]
+[gd_scene load_steps=6 format=3 uid="uid://w4b0y060a5ma"]
 
 [ext_resource type="Script" path="res://level.gd" id="1_0dy22"]
 [ext_resource type="Texture2D" uid="uid://3jec4k68xywm" path="res://starry-night-sky.jpg" id="2_7dxbs"]
