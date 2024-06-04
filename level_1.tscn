@@ -20,3 +20,4 @@ z_index = -50
 [node name="Player" parent="." instance=ExtResource("2_mrh7v")]
 z_index = 1
 position = Vector2(576, 324)
+[connection signal="body_exited" from="Maze" to="." method="_on_maze_body_exited"]
