@@ -12,7 +12,6 @@ gravity_scale = 0.0
 script = ExtResource("1_w0vt3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 3)
 shape = SubResource("CircleShape2D_uke0n")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
