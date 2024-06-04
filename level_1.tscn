@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://w4b0y060a5ma"]
+[gd_scene load_steps=5 format=3 uid="uid://w4b0y060a5ma"]
 
 [ext_resource type="Script" path="res://level.gd" id="1_0dy22"]
-[ext_resource type="Texture2D" uid="uid://h31bniflhtgw" path="res://15275692_5553676.jpg" id="1_7ji7t"]
+[ext_resource type="Texture2D" uid="uid://3jec4k68xywm" path="res://starry-night-sky.jpg" id="2_7dxbs"]
 [ext_resource type="PackedScene" uid="uid://cmjrxvnxox4tq" path="res://player.tscn" id="2_mrh7v"]
+[ext_resource type="PackedScene" uid="uid://bfg2qu4312si3" path="res://maze.tscn" id="3_11srm"]
 
 [node name="Level1" type="Node2D"]
 script = ExtResource("1_0dy22")
@@ -11,7 +12,7 @@ script = ExtResource("1_0dy22")
 z_index = -100
 offset_right = 1154.0
 offset_bottom = 648.0
-texture = ExtResource("1_7ji7t")
+texture = ExtResource("2_7dxbs")
 expand_mode = 3
 
 [node name="Maze" parent="." instance=ExtResource("3_11srm")]
