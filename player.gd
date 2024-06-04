@@ -10,7 +10,7 @@ func _process(delta):
 
 # Runs every time there is a phsyics calculation -- not effected by framerate
 func _physics_process(delta):
-	var force = 1000
+	var force = 500
 	if Input.is_action_pressed("move_right"):
 		apply_force(Vector2(force,0))
 	if Input.is_action_pressed("move_left"):
