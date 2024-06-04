@@ -16,4 +16,4 @@ expand_mode = 3
 
 [node name="Player" parent="." instance=ExtResource("2_mrh7v")]
 z_index = 1
-position = Vector2(301, 256)
+position = Vector2(576, 324)
