@@ -16,10 +16,13 @@ script = ExtResource("1_0dy22")
 [node name="CanvasLayer" type="CanvasLayer" parent="Graphics"]
 layer = -1
 
-[node name="Background" type="TextureRect" parent="CanvasLayer"]
+[node name="Background" type="TextureRect" parent="Graphics/CanvasLayer"]
 z_index = -100
-offset_right = 1154.0
-offset_bottom = 648.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("2_7dxbs")
 expand_mode = 3
 
