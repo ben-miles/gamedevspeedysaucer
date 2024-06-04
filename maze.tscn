@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfg2qu4312si3"]
+
+[ext_resource type="Texture2D" uid="uid://h31bniflhtgw" path="res://15275692_5553676.jpg" id="1_dcdk3"]
+
+[node name="Maze" type="Area2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, 2, 343, 2, 346, 206, 415, 206, 412, 2, 1152, 0, 1152, 324, 735, 316, 734, 486, 136, 481, 136, 520, 764, 520, 767, 346, 1152, 351, 1153, 645, 1024, 648, 1024, 474, 896, 469, 905, 648, 3, 649, 4, 391, 579, 388, 578, 185, 1014, 192, 1015, 144, 539, 140, 543, 352, 157, 354, 163, 138, 3, 138)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+texture_repeat = 1
+texture = ExtResource("1_dcdk3")
+texture_scale = Vector2(2.6, 2.6)
+polygon = PackedVector2Array(0, 2, 343, 2, 346, 206, 415, 206, 412, 2, 1152, 0, 1152, 324, 735, 316, 734, 486, 136, 481, 136, 520, 764, 520, 767, 346, 1152, 351, 1153, 645, 1024, 648, 1024, 474, 896, 469, 905, 648, 3, 649, 4, 391, 579, 388, 578, 185, 1014, 192, 1015, 144, 539, 140, 543, 352, 157, 354, 163, 138, 3, 138)
