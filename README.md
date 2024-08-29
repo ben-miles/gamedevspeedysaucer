@@ -7,7 +7,7 @@
 <img src=".github/images/screenshot_start.png" width="266" /> <img src=".github/images/screenshot_middle.png" width="266" /> <img src=".github/images/screenshot_finish.png" width="266" />
 
 <!-- DESCRIPTION -->
-A collision-avoidance game built with Godot 4. Move the flying saucer from START to FINISH, without leaving the track. Part of [GameDev.TV](https://gamedev.tv)'s course, [Complete Godot 4 2D](https://www.gamedev.tv/courses/godot-complete-2d).
+A 2D collision-avoidance game built with Godot 4. Move the flying saucer from START to FINISH, without leaving the track. Part of [GameDev.TV](https://gamedev.tv)'s course, [Complete Godot 4 2D](https://www.gamedev.tv/courses/godot-complete-2d).
 
 <!-- PROJECT SHIELDS -->
 [![Godot Engine](https://img.shields.io/badge/Built_with_Godot-4d9fdc?style=for-the-badge&logo=godotengine&logoColor=white)](https://godotengine.org/)
